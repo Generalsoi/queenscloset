@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="An e-commerce landing page website">
+  <title>E-commerce site</title>
+
+  <!--bootstrap cdn-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--css link-->  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!--favicon ico-->
+  <link rel="icon" href="favicon.ico">
+
+  <!--google fonts api-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!--fontawesome cdn-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>  
+<body>
+    <main>
+       <nav class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="#">QUEEN'S CLOSET</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+
+      <section id="introduction">
+        <div class="jumbotron jumbotron-intro">
+            <h1 class="display-4">Queen's Closet</h1>
+            <p class="lead">Purchase quality T-shirts from us at affordable prices.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">ORDER NOW</a>
+          </div>
+      </section>
+      
+      <section class="benefits">
+          <h2>Why should you buy from us?</h2>
+          <div class="card-">
+            <div class="cardContent">
+                <i class="fas fa-chart-line fa-5x"></i>
+                <p>Quality</p>
+                <p>We give you quality, long lasting and thick clothing, T-shirts that would spark the sense of class in you when you put them on.</p>
+            </div>
+            <div class="cardContent">
+                <i class="fas fa-comment-dollar fa-5x"></i>
+                <p>Affordable</p>
+                <p>Contrary to other marketing outlets with very expensive prices for their wears, we offer very affordable prices for the quality we are dishing out in our clothings. Discounts are also available.</p>
+            </div>
+            <div class="cardContent">
+                <i class="fas fa-bullseye fa-5x"></i>
+                <p>Durable</p>
+                <p>Our clothings have stood the test of time over the last couple of years. We offer long lasting wears for affordable prices at the highest quality.</p>
+            </div>
+        </div>
+      </section>
+
+      <div id="Testimonials">
+        <h2>What our customers say</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p>Queen's closet never disappoints. I have purchased more than 5 times from them and I can boldly say I was never disappointed.</p>
+                <img src="images/soisuccess.jpg" class="rounded" alt="Success Soi on Queen's closet">
+                <p>SOI</p>
+              </div>
+              <div class="carousel-item">
+                <p>Everyone should buy their wears from Queen's closet, because their wears last a great deal and are worth their prices.</p>
+                <img src="images/queen.jpg" class="rounded" alt="Queensley on Queen's closet">
+                <p>Edobor</p>
+              </div>
+              <div class="carousel-item">
+                <p>If you are not putting on Queen's wears, you are missing out big time.</p>
+                <img src="images/ikponmwosa.jpg" class="rounded" alt="Bright on Queen's closet">
+                <p>Bright</p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+
+      <div class="cardContainer">
+        <div class="card-deck">
+          <div class="card" style="width: 18rem;">
+            <img src="images/sina-rezakhani-PMdtwPKWt5Q-unsplash.jpg" class="card-img-top" alt="more pictures of our T-shirts">
+            <div class="card-body">
+              <h5 class="card-title">Lifestyle T-shirts</h5>
+              <p class="card-text">Rock our T-shirts to that party of yours and be sure to expect all eyes on you.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images/sebastian-martinez-zLtkdq9faYo-unsplash.jpg" class="card-img-top" alt="more pictures of our T-shirts">
+            <div class="card-body">
+              <h5 class="card-title">Lifestyle T-shirts</h5>
+              <p class="card-text">Our T-shirts are designed to give you elegance. Be sure to rock one of our T-shirts as you step out today.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images/guillaume-bleyer-2GAu2WG3_Kw-unsplash.jpg" class="card-img-top" alt="more pictures of our T-shirts">
+            <div class="card-body">
+              <h5 class="card-title">Lifestyle T-shirts</h5>
+              <p class="card-text">Never worry about the quality of your clothes ever again. We have provided a lasting solution to quality and class.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div> 
+        </div>
+                   
+      </div>
+
+    <section id="section-five">
+      <div class="jumbotron section-5-display">
+        <h1 class="display-4">Queen's Closet is here for you all day, everyday.</h1>
+        <p class="lead">Want to rock your dream T-shirt with class and elegance and not break your bank?</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">ORDER NOW</a>
+      </div>
+    </section>
+      
+
+    <section class="footer-">
+      <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> SOI</a>
+        </div>
+
+      </footer>
+    </section>
+    
+
+
+    </main>
+    
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

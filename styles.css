@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*navbar*/
+.navbar{
+    padding: 1% 10%;
+    background-color: #c56183;
+}
+.navbar a{
+    color: white;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.mr-auto {
+    margin-right: 0 !important;
+}
+.navbar-collapse {         
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;  
+}
+
+
+/*jumbotron*/
+.jumbotron-intro{
+    padding: 15% 10%;
+    text-align: center;
+    background-image: url(images/marcel-j-uWrCdB5sM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jumbotron-intro{
+    background-color: #c56183;
+}
+.display-4{
+    font-size: 6rem;
+    font-weight: bolder;
+    color: white;
+    animation-name: display;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.lead{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    animation-name: display;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes display{
+    50%{
+        color: #c56183;
+    }
+}
+
+
+/*benefits*/
+.benefits{
+    padding: 5% 10%;
+    text-align: center;
+}
+.benefits h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.card-{
+    display: flex;
+}
+.cardContent{
+    padding: 20px;
+}
+.benefits .fas{
+    color: #c56183;
+    padding-bottom: 20px;
+}
+.benefits p{
+    font-weight: bold;
+}
+
+
+
+/*testimonials section*/
+#Testimonials{
+    padding: 5% 10%;
+    background-color: #c56183;
+    color: white;
+    text-align: center;
+}
+#Testimonials h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#Testimonials p{
+    font-weight: bold;
+}
+#Testimonials img{
+    border-radius: 20%;
+    width: 10%;
+    height: 10%;
+    padding-bottom: 20px;
+}
+
+
+/*cardContainer*/
+.cardContainer{
+    padding: 5% 10%;
+}
+
+/*section five*/
+.section-5-display{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #c56183;
+    margin-bottom: 0;
+}
+.section-5-display h1{
+    font-size: 4rem;
+}
+.section-5-display p{
+    font-size: 1rem;
+}
+
+/*footer*/
+.footer-{
+    margin-top: 0;
+}
+.page-footer{
+    background-color: #c62a88;
+}
+.footer-copyright{
+    color: white;
+}
+.footer-copyright a{
+    color: white;
+}
+
+@media (max-width: 450px){
+    .navbar-toggler{
+        background-color: white;
+    }
+    .display-4{
+        font-size: 4rem;
+    }
+    .card-{
+        flex-wrap: wrap;
+    }
+    .section-5-display h1{
+        font-size: 3rem;
+    }
+}
